@@ -32,7 +32,7 @@ if systemctl is-active --quiet docker; then
     sudo chmod +x /usr/local/bin/docker-compose
 
     # Проверяем версию Docker Compose
-    docker compose --version
+    docker compose version
 
     # Выводим сообщение об успешной настройке Docker
     echo "Docker настроен успешно"
